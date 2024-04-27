@@ -1,12 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fira+Sans:ital,wght@0,100;0,200; 0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+}
+
+.contenedor1{
+    font-size: 20px;
+    background-color: rgb(124, 124, 124);
+    border-radius: 20px 20px 0 0;
+    padding: 0px 60px 10px 60px;
 }
 
 .title1{
-    font-family: Fira Sans;
-    font: weight 100;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
 }
+
+.title2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.barra{
+    background-color: black;
+    color: black;
+    width: 100%;
+}
+
+.contenedor2{
+    background-color: rgb(245, 176, 0);
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: center; /* Centrar elementos del menú horizontalmente */
+    width: 100%; /* Abarcar todo el ancho del contenedor */
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+    margin-top: 0; /* Agregar espacio entre contenedor y menú */
+    text-align: center;
+  }
+
+  .menu li {
+    color: #ffffff;
+    list-style: none;
+    margin: 45px; /* Ajustar espacio entre elementos del menú según sea necesario */
+  }
+  
+  li {
+    display: inline; /* Sobrescribir predeterminado (no necesario aquí) */
+    list-style-type: none;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  .title3{
+    padding-bottom: 60px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    color: rgb(89, 89, 89);
+    background-color: rgb(18, 18, 18)
+  }
+
+  .tarjeta-cuenta{
+    padding: 10px;
+    background-color: rgb(165, 165, 165);
+  }
