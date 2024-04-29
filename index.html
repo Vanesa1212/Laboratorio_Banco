@@ -29,25 +29,85 @@
         </div>
     </div>
 
-    <h2 class="title3">INGRESA TU CUENTA</h2>
+<div class="contenedor-tarjetas">    
     <div class="tarjeta-cuenta">
+        <h2 class="title3">INGRESA TU CUENTA</h2>
         <div class="contenido">
-
-            <form>
-
-            <label for="cuenta">Cuenta:</label>
-            <input type="number" id="cuenta" name="cuenta" required><br>
-
-            <label for="tipo">Tipo:</label>
-            <input type="text" id="tipo" name="tipo" required><br>
-
-            <label for="Clave">Clave:</label>
-            <input type="number" id="clave" name="clave" required><br>
-
-            <button type="submit" class="">Ingresar</button>
-
-            </form>
+            
+            <form action="login" method="post">
+                <div class="form-group">
+                  <label for="accountNumber">Número de cuenta:</label><br>
+                  <input type="text" id="accountNumber" name="accountNumber" required><br>
+                </div>
+                <div class="form-group">
+                  <label for="tipo">tipo:</label><br>
+                  <input type="text" id="tipo" name="tipo" required><br>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                </div>
+                <button class="boton" type="submit">Ingresar</button>
+              </form>
         </div>
     </div>
+    <div class="tarjeta1">
+        <div class="contenido1">
+            <h3 class="title-1">SOLICITA NUESTROS PRODUCTOS</h3>
+            <img class="imagen1" src="img/terjetanegra.avif" alt="imagen1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet repudiandae est qui eum culpa, sit ad maxime, quae deleniti optio, explicabo animi quas provident esse ullam sint voluptatum. Consectetur, voluptatem?
+            </p>
+        </div>
+    </div>
+    <div class="tarjeta2">
+        <div class="contenido2">
+            <h3 class="title-2">AHORRO ESTUDIANTIL</h3>
+            <img class="imagen2" src="img/imagen2.webp" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet repudiandae est qui eum culpa, sit ad maxime, quae deleniti optio, explicabo animi quas provident esse ullam sint voluptatum. Consectetur, voluptatem?
+            </p>
+        </div>
+    </div>
+</div>
+<div class="contenedor-tarjetas">
+    <div class="contenedor3">
+        <div class="menu1">
+            <h2 class="title4">TRANSACCIONES</h2>
+            <ul>
+              <li>Banca personal</li>
+              <hr>
+              <li>Banca empresarial</li>
+              <hr>
+              <li>Banca seguros</li>
+              <hr>
+              <li>Pago de facturas</li>
+            </ul>
+            <h2 class="title4">TARJETAS DE CRÉDITO</h2>
+            <ul>
+                <li>Credi Visa</li>
+                <hr>
+                <li>Credi Mastercad</li>
+            </ul>
+        </div>
+    </div>
+    <div class="tarjeta3">
+        <div class="contenido3">
+            <h3 class="title-3">CRÉDITO VEHÍCULOS</h3>
+            <img class="imagen3" src="img/imagen3.avif" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet repudiandae est qui eum culpa, sit ad maxime, quae deleniti optio, explicabo animi quas provident esse ullam sint voluptatum. Consectetur, voluptatem?
+            </p>
+        </div>
+    </div>
+    <div class="tarjeta4">
+        <div class="contenido4">
+            <h3 class="title-4">CRÉDITO HIPOTECARIO</h3>
+            <img class="imagen4" src="img/imagen4.png" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet repudiandae est qui eum culpa, sit ad maxime, quae deleniti optio, explicabo animi quas provident esse ullam sint voluptatum. Consectetur, voluptatem?
+            </p>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Contactenos<br>Linea gratuita 018000-00001<br>Banco entidad financiera - todos los derechos reservados</p>
+</footer>
 </body>
 </html>
