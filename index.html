@@ -2,112 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Laboratorio Banco</title>
+    <title>BanCoop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="contenedor1">
-        <div class="imagenlogo">
-            <img src="" alt="">
-            <div class="text">
-                <h1 class="title1">BANCOOP</h1>
-                <h2 class="title2">te ayuda a alcanzar tus metas</h2>
+    <div class="container">
+       
+            <div class="header">
+               <div>
+                 <h1>BANCOOP</h1>
+                 <h3>Te ayuda a alcanzar tus metas</h3>
+                </div>
+                 <img class="img1" src="img/img1.jpeg" alt="">
+        
+            </div>
+            <div class="nav">hol</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">.Credidos.</a></li>
+                    <li><a href="">.Leasing.</a></li>
+                    <li><a href="">.Ahorros.</a></li>
+                    <li><a href="" class="servicio_menu">.Servicio al cliente.</a></li>
+                </ul>
+            </div>
+        <div class="card-container">
+          
+          <div class="card1-container">
+                <div class="card1">
+                    <h4>INGRESA A TU CUENTA</h4>
+                    <form method="post" action="/send/">
+                        Cuenta:
+                        <input name="nombre" autocomplete="off"
+                        placeholder="Nombre de la cuenta">
+                    </form>
+                    <form method="post" action="/send/">
+                        Tipo: 
+                        <input name="nombre" autocomplete="off">
+                    </form>
+                    <form method="post" action="/send/">
+                        Clave:
+                        <input name="nombre" autocomplete="off"
+                        placeholder="Ingrese Nombre">
+                    </form>
+                    <button class="rounded" >Ingresar</button>
+                </div>
+                <div class="card4">
+                    <h6 class="titulo1">TRANSACCIONES</h6>
+                    <p class="ban">Banca personal</p>
+                    <p class="ban">Banca empresarial</p>
+                    <p class="ban">Banca seguros</p>
+                    <p class="ban">Pagos de Facturas</p>
+                    <h6 class="titulo1">TARJETAS DE CREDITO</h6>
+                    <p class="ban">Credi Visa</p>
+                    <p class="ban">Credi Mastercard</p>
+                </div>
+             </div>
+             <div class="card2-container">
+                <div class="card2">
+                    <h5>SOLICITA NUESTROS PRODUCTOS</h5>
+                    <img src="img/img2.avif" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla dolorem animi explicabo tenetur earum reiciendis nisi sit id! Molestias.</p>
+                </div>
+                <div class="card3">
+                    <h5>AHORRO ESTUDIANTIL</h5>
+                    <img src="img/imagen2.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla dolorem animi explicabo tenetur earum reiciendis nisi sit id! Molestias.</p>
+                </div>
+            
+                <div class="card5">
+                    <h5>CREDITO VEHICULOS</h5>
+                    <img src="img/imagen3.avif" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla dolorem animi explicabo tenetur earum reiciendis nisi sit id! Molestias.</p>
+                </div>
+                <div class="card6">
+                    <h5>CREDITO HIPOTECARIO</h5>
+                    <img src="img/imagen4.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nulla dolorem animi explicabo tenetur earum reiciendis nisi sit id! Molestias.</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="barra">d</div>
-    <div class="contenedor2">
-        <div class="menu">
-            <ul>
-              <li>.Creditos.</li>
-              <li>.leasing.</li>
-              <li>.Ahorros.</li>
-              <li>.Servicio al cliente.</li>
-            </ul>
-        </div>
-    </div>
+            <footer>
+                <h2>
+                    Contactenos <br>
+                    Linea gratuita 018000-00001 <br>
+                    Banco entidad financiera - Todos los derechos reservados
 
-<div class="contenedor-tarjetas">    
-    <div class="tarjeta-cuenta">
-        <h2 class="title3">INGRESA TU CUENTA</h2>
-        <div class="contenido">
-            
-            <form action="login" method="post">
-                <div class="form-group">
-                  <label for="accountNumber">Número de cuenta:</label><br>
-                  <input type="text" id="accountNumber" name="accountNumber" required><br>
-                </div>
-                <div class="form-group">
-                  <label for="tipo">tipo:</label><br>
-                  <input type="text" id="tipo" name="tipo" required><br>
-                </div>
-                <div class="form-group">
-                    <label for="password">Contraseña:</label><br>
-                    <input type="password" id="password" name="password" required><br><br>
-                </div>
-                <button class="boton" type="submit">Ingresar</button>
-              </form>
-        </div>
-    </div>
-    <div class="tarjeta1">
-        <div class="contenido1">
-            <h3 class="title-1">SOLICITA NUESTROS PRODUCTOS</h3>
-            <img class="imagen1" src="img/terjetanegra.avif" alt="imagen1">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet repudiandae est qui eum culpa, sit ad maxime, quae deleniti optio, explicabo animi quas provident esse ullam sint voluptatum. Consectetur, voluptatem?
-            </p>
-        </div>
-    </div>
-    <div class="tarjeta2">
-        <div class="contenido2">
-            <h3 class="title-2">AHORRO ESTUDIANTIL</h3>
-            <img class="imagen2" src="img/imagen2.webp" alt="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet repudiandae est qui eum culpa, sit ad maxime, quae deleniti optio, explicabo animi quas provident esse ullam sint voluptatum. Consectetur, voluptatem?
-            </p>
-        </div>
-    </div>
-</div>
-<div class="contenedor-tarjetas">
-    <div class="contenedor3">
-        <div class="menu1">
-            <h2 class="title4">TRANSACCIONES</h2>
-            <ul>
-              <li>Banca personal</li>
-              <hr>
-              <li>Banca empresarial</li>
-              <hr>
-              <li>Banca seguros</li>
-              <hr>
-              <li>Pago de facturas</li>
-            </ul>
-            <h2 class="title4">TARJETAS DE CRÉDITO</h2>
-            <ul>
-                <li>Credi Visa</li>
-                <hr>
-                <li>Credi Mastercad</li>
-            </ul>
-        </div>
-    </div>
-    <div class="tarjeta3">
-        <div class="contenido3">
-            <h3 class="title-3">CRÉDITO VEHÍCULOS</h3>
-            <img class="imagen3" src="img/imagen3.avif" alt="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet repudiandae est qui eum culpa, sit ad maxime, quae deleniti optio, explicabo animi quas provident esse ullam sint voluptatum. Consectetur, voluptatem?
-            </p>
-        </div>
-    </div>
-    <div class="tarjeta4">
-        <div class="contenido4">
-            <h3 class="title-4">CRÉDITO HIPOTECARIO</h3>
-            <img class="imagen4" src="img/imagen4.png" alt="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet repudiandae est qui eum culpa, sit ad maxime, quae deleniti optio, explicabo animi quas provident esse ullam sint voluptatum. Consectetur, voluptatem?
-            </p>
-        </div>
-    </div>
-</div>
-<footer>
-    <p>Contactenos<br>Linea gratuita 018000-00001<br>Banco entidad financiera - todos los derechos reservados</p>
-</footer>
+                </h2>
+            </footer>
+    </div>   
+      
 </body>
 </html>
